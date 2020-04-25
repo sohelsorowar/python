@@ -1,7 +1,7 @@
 
 #another
 class Computer:
-    def _init_(self):
+    def __init__(self):
         print("in init")
 
     def config(self):
