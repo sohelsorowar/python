@@ -49,39 +49,142 @@
 
 #pyramid problems 
 
-def peramid(x):
+# def peramid(x):
 
-    for i in range(x):
-        for j in range(i+1):
-            print("*", end=" ")
-        print("\r")
+#     for i in range(x):
+#         for j in range(i+1):
+#             print("*", end=" ")
+#         print("\r")
 
-x=int(input("enter number: "))
-peramid(x)
+# x=int(input("enter number: "))
+# peramid(x)
 
-print(".........")
+# print(".........")
 
-def per(z):
-    k= 2*z - 2
-    for i in range(0,z):
-        for j in range(0,k):
-            print(end="")
-        k=k-2
-        for j in range(0, i+1): 
-            print("* ", end="")
-        print("\r")
+# def per(z):
+#     k= 2*z - 2
+#     for i in range(0,z):
+#         for j in range(0,k):
+#             print(end="")
+#         k=k-2
+#         for j in range(0, i+1): 
+#             print("* ", end="")
+#         print("\r")
 
-z=5
-per(z)   
+# z=5
+# per(z)   
 
-def pypart2(n): 
-    k = 2*n - 2
-    for i in range(0, n): 
-        for j in range(0, k): 
-            print(end=" ") 
-        k = k - 2
-        for j in range(0, i+1): 
-            print("* ", end="")      
-        print("\r") 
-n = 5
-pypart2(n) 
+# def pypart2(n): 
+#     k = 2*n - 2
+#     for i in range(0, n): 
+#         for j in range(0, k): 
+#             print(end=" ") 
+#         k = k - 2
+#         for j in range(0, i+1): 
+#             print("* ", end="")      
+#         print("\r") 
+# n = 5
+# pypart2(n) 
+
+# rows = 5
+# b = 0
+# for i in range(rows, 0, -1):
+#     b += 1
+#     for j in range(1, i + 1):
+#         print(b, end=' ')
+#     print('\r')
+
+
+# >>>>>>>       <<<<<<<<<<<
+# rows = 10
+# b=0
+# for i in range(rows):
+
+#     for j in range(-1+i,-1,-1):
+#         print(format(2**j,"5d"), end=" ")
+#     print(" ")
+
+#     1  
+#     2     1  
+#     4     2     1  
+#     8     4     2     1  
+#    16     8     4     2     1  
+#    32    16     8     4     2     1  
+#    64    32    16     8     4     2     1  
+#   128    64    32    16     8     4     2     1  
+#   256   128    64    32    16     8     4     2     1  
+# >>>>>>>>>>>>>>      <<<<<<<<<<<
+
+
+# c=1
+# s=2
+# rows=3
+
+# for i in range(rows):
+#     for j in range(1,s):
+#         print(c, end=" ")
+#         c+=1
+#     print(" ")
+#     s+=2
+
+# 1  
+# 2 3 4  
+# 5 6 7 8 9  
+# >>>>>>>> <<<<<<<<<<<<
+
+
+
+# rows = 6
+# for i in range(0, rows):
+#     for j in range(rows - 1, i, -1):
+#         print(j, '', end='')
+#     for l in range(i):
+#         print('    ', end='')
+#     for k in range(i + 1, rows):
+#         print(k, '', end='')
+#     print('\n')
+
+# 5 4 3 2     2 3 4 5 
+
+# 5 4 3         3 4 5 
+
+# 5 4             4 5 
+
+# 5                 5 
+# >>>>>>>>>>>>>>>            <<<<<<<<<<
+
+
+
+
+# rows = 6
+# for row in range(1, rows):
+#     num = 1
+#     for j in range(rows, 0, -1):
+#         if j > row:
+#             print(" ", end=' ')
+#         else:
+#             print(num, end=' ')
+#             num += 1
+#     print("")
+#           1 
+#         1 2 
+#       1 2 3 
+#     1 2 3 4 
+#   1 2 3 4 5 
+
+
+
+
+print("Print equilateral triangle Pyramid with characters ")
+# size = 7
+# asciiNumber = 65
+# m = (2 * size) - 2
+# for i in range(0, size):
+#     for j in range(0, m):
+#         print(end=" ")
+#     m = m - 1
+#     for j in range(0, i + 1):
+#         character = chr(asciiNumber)
+#         print(character, end=' ')
+#         asciiNumber += 1
+#     print(" ")
